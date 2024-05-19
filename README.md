@@ -1,3 +1,6 @@
+[GPT-4o Coding Assistant](https://github.com/TheStoneMX/conversation_with_GPT4o/blob/c3aacdc86a4130ba8e9840dc56ba3d94e4f2de66/MainImage.webp)
+
+MainImage.webp
 ## conversation_with_GPT4o
 GPT-4o is a new model from OpenAI that can take text and images as input and output text. This project showcases its potential in Conversational NLP, particularly in assisting with code writing.
 
