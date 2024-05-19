@@ -1,12 +1,15 @@
-GPT-4o is a new model from OpenAI that can take text and images as input and output text. This project showcases its potential in Conversational NLP, particularly in assisting with code writing.
+# gpt4o-voice-preview
+GPT-4o Voice Preview | Code assistant + Notes Assistant
 
-Imagine GPT-4o as a coding companion that understands voice commands and provides real-time feedback on your code, aiming to improve the coding process. This project demonstrates how to create such conversational agents using the new GPT-4o API.
+### Setup
+1. git clone https://github.com/TheStoneMX/conversation_with_GPT4o.git
+2. cd dir
+3. pip install -r requirements.txt
+4. SET your OpenAI key (line 24 ish)
+5. SET Image folder PATH (line 147 ish)
+6. Code Assistant: python digi.py
+7. Notes Assistant: python digi2.py
 
-## Capabilities
-Multimodal Input Processing: GPT-4o can process text, images, and voice, opening doors to various applications like real-time code analysis based on screen content and voice commands.
-Conversational NLP: GPT-4o excels in understanding and responding to natural language, making it perfect for creating interactive coding assistants.
-
-## Limitations
-Response Time: The current version of the API can be slow, with noticeable delays in responding to queries.
-Note
-This project does not aim to replace existing tools like Copilot but rather to explore the exciting possibilities of creating conversational AI agents with the GPT-4o API.
+### Options
+1. If you dont have a CUDA GPU you can use OpenAI Whisper API to Transcribtion
+   https://platform.openai.com/docs/guides/speech-to-text

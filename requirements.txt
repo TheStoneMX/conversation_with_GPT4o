@@ -1,0 +1,7 @@
+openai
+pyautogui
+tempfile
+pyaudio
+pydub
+faster-whisper
+audioop
